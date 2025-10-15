@@ -223,4 +223,15 @@ pip install mysql-connector-python openai streamlit
 python -m streamlit run ai_sql_chat.py
 ```
 
+Video link : 
+https://go.screenpal.com/watch/cT6olinbZD3
+
+<img width="1440" height="900" alt="Screenshot 2025-10-15 at 5 26 49 PM" src="https://github.com/user-attachments/assets/85557c38-298c-4abb-94f8-2d58df093704" />
+
+<img width="1440" height="900" alt="Screenshot 2025-10-15 at 5 27 08 PM" src="https://github.com/user-attachments/assets/ca1e25c7-4a38-43ab-8c26-aef45e6556a0" />
+<img width="1440" height="900" alt="Screenshot 2025-10-15 at 5 27 17 PM" src="https://github.com/user-attachments/assets/06ef5f4a-cc8a-49dd-9295-01b2669ed9f1" />
+<img width="1440" height="900" alt="Screenshot 2025-10-15 at 5 27 17 PM" src="https://github.com/user-attachments/assets/2fb6162f-5107-4807-b2d9-ad59429f4281" />
+
+
+
 

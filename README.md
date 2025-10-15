@@ -2,10 +2,7 @@
 
 
 
-Here’s a **complete local installation and run guide** that covers **both Mac/Linux and Windows**, in plain text format.
-You can directly paste this into your GitHub `README.md` file or keep it for internal documentation.
-
----
+Here’s a **complete local installation and run guide** that covers **both Mac/Linux and Windows**, 
 
 # Local Installation and Run Guide (Mac/Linux and Windows)
 
@@ -24,7 +21,6 @@ If not installed, download from:
 
 For Windows users, make sure to select **“Add Python to PATH”** during installation.
 
----
 
 ## 2. Create a Project Folder
 
@@ -35,7 +31,7 @@ cd ai_sql_app
 
 Place your `.py` file (for example, `ai_sql_chat.py`) inside this folder.
 
----
+
 
 ## 3. Create a Virtual Environment (Recommended)
 
@@ -57,7 +53,6 @@ venv\Scripts\activate
 
 After activation, your terminal prompt should show `(venv)` at the beginning.
 
----
 
 ## 4. Install Required Python Packages
 
@@ -65,8 +60,6 @@ After activation, your terminal prompt should show `(venv)` at the beginning.
 pip install --upgrade pip
 pip install streamlit mysql-connector-python openai pandas packaging
 ```
-
----
 
 ## 5. Configure MySQL
 
@@ -95,7 +88,6 @@ CREATE DATABASE ai_sql_demo;
 
 Load or create your required tables and sample data in this database.
 
----
 
 ## 6. Set Your OpenAI API Key (Optional but Recommended)
 
@@ -127,7 +119,6 @@ Then in your Python file, replace the hardcoded key with:
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 ```
 
----
 
 ## 7. Run the Streamlit App
 
@@ -165,8 +156,6 @@ Local URL: http://localhost:8501
 
 Open this URL in your browser.
 
----
-
 ## 8. Keep the App Running in the Background (Optional)
 
 ### Mac/Linux
@@ -183,13 +172,11 @@ Open a new terminal window and run the app separately. You can also use `start`:
 start streamlit run ai_sql_chat.py
 ```
 
----
 
 ## 9. Stop the App
 
 Press `CTRL + C` in the terminal to stop the app on both Mac/Linux and Windows.
 
----
 
 ## Summary Table
 

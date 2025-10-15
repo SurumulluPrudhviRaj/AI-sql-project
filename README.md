@@ -223,6 +223,4 @@ pip install mysql-connector-python openai streamlit
 python -m streamlit run ai_sql_chat.py
 ```
 
----
 
-Would you like me to generate this as a `README.md` file so you can push it to your Git repo directly?

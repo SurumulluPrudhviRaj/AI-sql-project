@@ -1,4 +1,4 @@
-# AI-sql-project
+# AI SQL Query Assistant
 
 
 
